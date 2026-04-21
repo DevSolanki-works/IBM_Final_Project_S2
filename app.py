@@ -54,7 +54,7 @@ html, body, [class*="css"] {
     font-weight: 700 !important;
     margin: 0 0 4px 0 !important;
     letter-spacing: -0.01em;
-    text-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+    text-shadow: 0 0 2px rgba(56, 189, 248, 0.5);
 }
 .top-banner p {
     color: #94A3B8 !important;
@@ -64,7 +64,7 @@ html, body, [class*="css"] {
 }
 .top-banner-icon {
     font-size: 3.2rem;
-    filter: drop-shadow(0 0 15px #06B6D4);
+    filter: drop-shadow(0 0 2px #06B6D4);
 }
 
 /* ===== SECTION TITLES ===== */
@@ -173,8 +173,8 @@ html, body, [class*="css"] {
     letter-spacing: -0.02em;
     margin-bottom: 8px;
 }
-.result-churn .result-title { color: #FCA5A5; text-shadow: 0 0 8px #EF4444; }
-.result-safe .result-title { color: #6EE7B7; text-shadow: 0 0 8px #10B981; }
+.result-churn .result-title { color: #FCA5A5; text-shadow: 0 0 1px #EF4444; }
+.result-safe .result-title { color: #6EE7B7; text-shadow: 0 0 1px #10B981; }
 
 .result-prob {
     font-size: 3.5rem;
@@ -234,7 +234,7 @@ html, body, [class*="css"] {
     font-size: 1.5rem;
     font-weight: 700;
     color: #F0F9FF;
-    text-shadow: 0 0 8px #38BDF8;
+    text-shadow: 0 0 0px #38BDF8;
 }
 .metric-chip .chip-label {
     font-size: 0.7rem;
@@ -255,7 +255,7 @@ html, body, [class*="css"] {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 }
-.placeholder-box .pi { font-size: 3.8rem; opacity: 0.5; filter: drop-shadow(0 0 10px #06B6D4); }
+.placeholder-box .pi { font-size: 3.8rem; opacity: 0.5; filter: drop-shadow(0 0 2px #06B6D4); }
 .placeholder-box .pt {
     font-size: 1.3rem;
     font-weight: 700;
@@ -311,8 +311,8 @@ html, body, [class*="css"] {
     font-size: 1rem;
     letter-spacing: 0.05em;
     border: 1px solid #06B6D4;
-    box-shadow: 0 0 20px rgba(6, 182, 212, 0.15);
-    text-shadow: 0 0 8px #38BDF8;
+    box-shadow: 0 0 2px rgba(6, 182, 212, 0.05);
+    text-shadow: 0 0 2px #38BDF8;
 }
 .sidebar-tip {
     background: rgba(15, 23, 42, 0.8);
@@ -337,7 +337,7 @@ div[data-testid="stButton"] > button {
     padding: 14px 0 !important;
     font-size: 1.05rem !important;
     width: 100%;
-    box-shadow: 0 0 25px #06B6D4, 0 8px 18px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px #06B6D4, 0 8px 18px rgba(0,0,0,0.5);
     transition: all 0.2s ease;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -346,7 +346,7 @@ div[data-testid="stButton"] > button {
 div[data-testid="stButton"] > button:hover {
     background: linear-gradient(135deg, #22D3EE 0%, #60A5FA 100%) !important;
     transform: scale(1.02);
-    box-shadow: 0 0 35px #38BDF8, 0 10px 25px #000000;
+    box-shadow: 0 0 15px #38BDF8, 0 10px 25px #000000;
     color: #020617 !important;
 }
 div[data-testid="stButton"] > button:active {
