@@ -180,7 +180,7 @@ with col2:
         ax.set_xlim(0, 100)
         ax.set_xlabel("Probability (%)")
         ax.set_title("Churn Probability Breakdown", fontweight="bold")
-        ax.set_facecolor("#f8f9fa")
+        ax.set_facecolor("#398bdc")
         fig.patch.set_facecolor("white")
         plt.tight_layout()
         st.pyplot(fig)
@@ -207,7 +207,7 @@ with st.expander("ℹ️ About This Application"):
     - `AccountSyncedToSocialMedia` – Whether account is synced to social media (Yes/No)
     - `BookedHotelOrNot` – Whether the customer booked a hotel (Yes/No)
 
-    **Course**: B.Tech – Gen AI (2nd Semester) | Final Project
+    **Course**: Dev Solanki | Gen AI - B | Final Project
     """)
 
 st.markdown(
